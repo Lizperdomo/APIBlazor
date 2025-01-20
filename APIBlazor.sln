@@ -5,6 +5,8 @@ VisualStudioVersion = 17.12.35707.178
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsistenciasCrud.Server", "AsistenciasCrud.Server\AsistenciasCrud.Server.csproj", "{892B3736-4EB9-4C0E-96BD-CCE5ED7BA653}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsistenciasCrud.Shared", "AsistenciasCrud.Shared\AsistenciasCrud.Shared.csproj", "{38C5423E-1EDB-4A14-A016-770262E87226}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{892B3736-4EB9-4C0E-96BD-CCE5ED7BA653}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{892B3736-4EB9-4C0E-96BD-CCE5ED7BA653}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{892B3736-4EB9-4C0E-96BD-CCE5ED7BA653}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38C5423E-1EDB-4A14-A016-770262E87226}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38C5423E-1EDB-4A14-A016-770262E87226}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38C5423E-1EDB-4A14-A016-770262E87226}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38C5423E-1EDB-4A14-A016-770262E87226}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

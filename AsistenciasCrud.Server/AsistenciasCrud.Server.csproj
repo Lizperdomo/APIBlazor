@@ -19,4 +19,8 @@
     <Folder Include="Models\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\AsistenciasCrud.Shared\AsistenciasCrud.Shared.csproj" />
+  </ItemGroup>
+
 </Project>
