@@ -19,5 +19,4 @@ public partial class Usuario
 
     public virtual ICollection<Asistencia> Asistencia { get; set; } = new List<Asistencia>();
 
-    public virtual ICollection<Horario> Horarios { get; set; } = new List<Horario>();
 }

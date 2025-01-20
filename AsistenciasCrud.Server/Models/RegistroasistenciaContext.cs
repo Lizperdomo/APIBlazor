@@ -17,7 +17,6 @@ public partial class RegistroasistenciaContext : DbContext
 
     public virtual DbSet<Asistencia> Asistencias { get; set; }
 
-    public virtual DbSet<Horario> Horarios { get; set; }
 
     public virtual DbSet<Usuario> Usuarios { get; set; }
 
@@ -40,20 +39,7 @@ public partial class RegistroasistenciaContext : DbContext
                 .HasConstraintName("FK__asistenci__IdUsu__4BAC3F29");
         });
 
-        modelBuilder.Entity<Horario>(entity =>
-        {
-            entity.HasKey(e => e.IdHorario).HasName("PK__horarios__1539229B94B71033");
-
-            entity.ToTable("horarios");
-
-            entity.Property(e => e.DiasLaborales).HasMaxLength(100);
-
-            entity.HasOne(d => d.IdUsuarioNavigation).WithMany(p => p.Horarios)
-                .HasForeignKey(d => d.IdUsuario)
-                .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__horarios__IdUsua__4E88ABD4");
-        });
-
+ 
         modelBuilder.Entity<Usuario>(entity =>
         {
             entity.HasKey(e => e.IdUsuario).HasName("PK__usuarios__5B65BF97C638FB1B");

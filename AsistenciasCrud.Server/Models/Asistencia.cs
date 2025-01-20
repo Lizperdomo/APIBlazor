@@ -15,5 +15,6 @@ public partial class Asistencia
 
     public DateOnly Fecha { get; set; }
 
+    public Usuario Usuario { get; set; }
     public virtual Usuario IdUsuarioNavigation { get; set; } = null!;
 }
