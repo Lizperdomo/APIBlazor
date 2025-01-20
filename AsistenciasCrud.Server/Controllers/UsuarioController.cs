@@ -62,7 +62,7 @@ namespace AsistenciasCrud.Server.Controllers
 
             try
             {
-                var dbUsuario = await _dbContext.Usuarios.FirstOrDefaultAsync(x => x.IdAsistencia == id);
+                var dbUsuario = await _dbContext.Usuarios.FirstOrDefaultAsync(x => x.IdUsuario == id);
 
                 if (dbUsuario != null)
                 {

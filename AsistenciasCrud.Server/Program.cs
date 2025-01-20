@@ -9,11 +9,11 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-builder.Services.AddDbContext<RegistroasistenciaContext>(opciones=>
+builder.Services.AddDbContext<RegistroasistenciaContext>(opciones =>
 {
     opciones.UseSqlServer(builder.Configuration.GetConnectionString("cadenaSQL"));
-}
-);
+});
+
 
 builder.Services.AddCors(opciones =>
 {

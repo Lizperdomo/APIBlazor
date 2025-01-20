@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsistenciasCrud.Server", "A
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsistenciasCrud.Shared", "AsistenciasCrud.Shared\AsistenciasCrud.Shared.csproj", "{38C5423E-1EDB-4A14-A016-770262E87226}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsistenciasCrud.Client", "AsistenciasCrud.Client\AsistenciasCrud.Client.csproj", "{EE048C5D-8071-4DA7-9D90-F830B5F54E39}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{38C5423E-1EDB-4A14-A016-770262E87226}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{38C5423E-1EDB-4A14-A016-770262E87226}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{38C5423E-1EDB-4A14-A016-770262E87226}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE048C5D-8071-4DA7-9D90-F830B5F54E39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE048C5D-8071-4DA7-9D90-F830B5F54E39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE048C5D-8071-4DA7-9D90-F830B5F54E39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE048C5D-8071-4DA7-9D90-F830B5F54E39}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
